@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<project path="device/lge/l70pn" name="geekydoc/android_device_l70pn" remote="github" revision="cm-14.1" />
+	<project path="device/lge/l70pds" name="geekydoc/android_device_l70pds" remote="github" revision="cm-14.1" />
+	<project path="device/lge/msm8610-common" name="geekydoc/android_device_lge_msm8610-common" remote="github" revision="cm-14.1-advance" />
+	<project path="vendor/lge/l70pn" name="geekydoc/proprietary_vendor_lge_l70pn" remote="github" revision="master" />
+	<project path="vendor/lge/l70pds" name="geekydoc/proprietary_vendor_lge_l70pds" remote="github" revision="master" />
+	<project path="vendor/lge/msm8610-common" name="geekydoc/proprietary_vendor_lge_msm8610-common" remote="github" revision="cm-14.1" />
+	<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="cm-14.1" />
+	<project path="kernel/lge/msm8610" name="geekydoc/android_kernel_lge_msm8610" remote="github" revision="cm-14.1-advance" />
+	<project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="cm-14.1" />
+	<project path="prebuilts/gcc/linux-x86/arm/linaro-4.9/" name="geekydoc/gcc_linaro" remote="github" revision="gcc-4.9" />
+</manifest>
