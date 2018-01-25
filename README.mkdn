@@ -1,0 +1,47 @@
+##### Resurrection Remix for Mountaser Halak Supported Devices. 
+
+
+##### How to build:
+
+
+##### Make directory for the repo binary
+
+      $ mkdir ~/bin
+
+##### Add directory for the repo binary to its path
+
+      $ PATH=~/bin:$PATH
+
+##### Downloading repo binary and placing it in the proper directory
+
+      $ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+
+##### Giving the repo binary the proper permissions
+
+      $ chmod a+x ~/bin/repo
+
+##### Creating directory for where the RR repo will be stored and synced
+
+      $ mkdir ~/RR
+      $ cd ~/RR
+
+##### Initializing the RR repo and downloading the manifest
+
+      $  repo init -u https://github.com/ResurrectionRemix/platform_manifest.git -b nougat
+      $  curl --create-dirs -L -o .repo/local_manifests/RR -O -L https://raw.githubusercontent.com/mountaser/Local_Manifests/RR_5.8.5/(device codename)
+
+##### Syncing the source
+[Hint: This might take a long time as the source is ~20GB]
+
+      $  repo sync -f --force-sync --no-clone-bundle
+
+##### Setting Up CCache
+
+        $ echo "export USE_CCACHE=1" >> ~/.bashrc
+      
+        $ ~/RR/prebuilts/misc/linux-x86/ccache/ccache -M 50G
+    
+##### To build Resurrection Remix ROM
+
+      $ cd ~/RR
+      $ . build/envsetup.sh && brunch <device>
