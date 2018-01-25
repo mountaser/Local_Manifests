@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<project path="kernel/lge/g3" name="mountaser/Moun_Kernel_G3" remote="github" revision="Moun_Kernel_V3.0_N" />
+<project path="device/lge/g3-common" name="mountaser/android_device_lge_g3-common-2" remote="github" revision="RR_5.8.5" />
+<project path="device/qcom/common" name="LineageOS/android_device_qcom_common/" remote="github" revision="cm-14.1" />
+<project path="device/lge/f400" name="mountaser/android_device_lge_f400" remote="github" revision="RR_5.8.5" />
+<project path="device/lge/d855" name="mountaser/android_device_lge_d855" remote="github" revision="RR_5.8.5" />
+<project path="device/lge/d851" name="mountaser/android_device_lge_d851" remote="github" revision="RR_5.8.5" />
+<project path="device/lge/d852" name="mountaser/android_device_lge_d852" remote="github" revision="RR_5.8.5" />
+<project path="device/lge/g3ds" name="mountaser/android_device_lge_g3ds" remote="github" revision="RR_5.8.5" />
+<project path="vendor/lge" name="crdroid-devices/proprietary_vendor_lge" remote="github" revision="cm-14.1" />
+</manifest>
