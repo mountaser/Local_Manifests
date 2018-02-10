@@ -28,7 +28,7 @@
 ##### Initializing the RR repo and downloading the manifest
 
       $  repo init -u https://github.com/ResurrectionRemix/platform_manifest.git -b nougat
-      $  curl --create-dirs -L -o .repo/local_manifests/RR.xml -O -L https://raw.githubusercontent.com/mountaser/Local_Manifests/RR_5.8.5/(device name)
+      $  curl --create-dirs -L -o .repo/local_manifests/RR.xml -O -L https://raw.githubusercontent.com/mountaser/Local_Manifests/RR_6.0.0(device name)
 
 ##### Syncing the source
 [Hint: This might take a long time as the source is ~20GB]
