@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <project path="kernel/lge/g3" name="mountaser/Moun_Kernel_G3" remote="github" revision="Moun_Kernel_V3.0" />
-<project path="device/lge/g3-common" name="itsHardStyl3r/reworked-g3-common" remote="github" revision="8.1" />
+<project path="device/lge/g3-common" name="mountaser/android_device_lge_g3-common-3" remote="github" revision="8.1" />
 <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="staging/lineage-15.1" />
 <project path="device/lge/d855" name="mountaser/android_device_lge_d855_RR" remote="github" revision="RR_6.0.0" />
   <!-- <project path="device/lge/f400" name="mountaser/android_device_lge_f400" remote="github" revision="RR_5.8.5" />
