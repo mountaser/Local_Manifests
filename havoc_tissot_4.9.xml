@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<project path="kernel/xiaomi/msm8953" name="Flex1911/android_kernel_xiaomi_msm8953-1" remote="github" revision="lineage-16.0-4.9" />
-<project path="device/xiaomi/tissot" name="Flex1911/android_device_xiaomi_tissot" remote="github" revision="lineage-16.0-4.9" />
-<project path="device/xiaomi/msm8953-common" name="Flex1911/android_device_xiaomi_msm8953-common" remote="github" revision="lineage-16.0-4.9" />
-<project path="vendor/xiaomi" name="Flex1911/proprietary_vendor_xiaomi" remote="github" revision="lineage-16.0" />
+<project path="kernel/xiaomi/msm8953" name="mountaser/Moun_Kernel_Tissot" remote="github" revision="9.0-4.9-2-test-6" />
+<project path="device/xiaomi/tissot" name="Tissot-Havoc-Development/android_device_xiaomi_tissot" remote="github" revision="9.0-4.9" />
+<project path="device/xiaomi/msm8953-common" name="Tissot-Havoc-Development/android_device_xiaomi_msm8953-common" remote="github" revision="9.0-4.9" />
+<project path="vendor/xiaomi" name="Tissot-Havoc-Development/android_proprietary_vendor_xiaomi" remote="github" revision="9.0-4.9-test" />
 <project path="device/qcom/common" name="LineageOS/android_device_qcom_common/" remote="github" revision="lineage-15.1" />
-<project path="hardware/qcom/audio-caf-msm8996" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-16.0-caf-8996" />
-<project path="hardware/qcom/display-caf-msm8996" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-16.0-caf-8996" />
-<project path="hardware/qcom/media-caf-msm8996" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-16.0-caf-8996" />
-<project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" remote="github" revision="lineage-16.0" />
 </manifest>
