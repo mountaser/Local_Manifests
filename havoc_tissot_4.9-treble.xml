@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<project path="kernel/xiaomi/msm8953" name="mountaser/Moun_Kernel_Tissot" remote="github" revision="9.0-4.9-treble" />
+<project path="device/xiaomi/tissot" name="Tissot-Havoc-Development/android_device_xiaomi_tissot" remote="github" revision="9.0-4.9-treble" />
+<project path="device/xiaomi/msm8953-common" name="Tissot-Havoc-Development/android_device_xiaomi_msm8953-common" remote="github" revision="9.0-4.9-treble" />
+<project path="vendor/xiaomi" name="Tissot-Havoc-Development/proprietary_vendor_xiaomi" remote="github" revision="9.0-4.9-treble" />
+<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-16.0" />
+</manifest>
