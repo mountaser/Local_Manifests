@@ -1,48 +1,8 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="caf"
-          fetch="https://source.codeaurora.org/quic/la/"
-          review="codeaurora.org"/>
-
-  <remote name="pixel"
-          fetch="https://github.com/PixelExperience"
-          revision="pie"
-          review="gerrit.pixelexperience.org" />
-
-  <remove-project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="los" />
-  <remove-project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="los" />
-  <remove-project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="los" />
-  <remove-project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="los" />
-  <remove-project path="vendor/nxp/opensource/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="los" />
-  <remove-project path="vendor/nxp/opensource/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="los" />
-  <remove-project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="los" />
-  <remove-project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="los" />
-
-
-  <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-16.0" remote="github" />
-  <project path="hardware/qcom/display-caf/apq8084" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-16.0-caf-8084" remote="github" />
-  <project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-16.0-caf-8916" remote="github" />
-  <project path="hardware/qcom/display-caf/msm8952" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-16.0-caf-8952" remote="github" />
-  <project path="hardware/qcom/display-caf/msm8960" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-16.0-caf-8960" remote="github" />
-  <project path="hardware/qcom/display-caf/msm8974" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-16.0-caf-8974" remote="github" />
-  <project path="hardware/qcom/display-caf/msm8994" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-16.0-caf-8994" remote="github" />
-  <project path="hardware/qcom/display-caf/msm8996" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-16.0-caf-8996" remote="github" />
-  <project path="hardware/qcom/display-caf/msm8998" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-16.0-caf-8998" remote="github" />
-  <project path="hardware/qcom/display-caf/sdm845"  name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-16.0-caf-845"  remote="github" />
-
-  <project remote="caf" name="platform/vendor/nxp/interfaces/opensource/nfc" path="vendor/nxp/opensource/interfaces/nfc" revision="be4da3327535956bc14153446168fba4d3a28765" />
-  <project remote="caf" name="platform/vendor/nxp/opensource/external/libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci" revision="ac2d3b3f1f44b3bc2c6123568b2ab0aa7f4cf268" />
-  <project remote="caf" name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/commonsys/frameworks" revision="4e3bec42fcdba0d15927327b025f3db283a99a59" />
-  <project remote="caf" name="platform/vendor/nxp/opensource/halimpl" path="vendor/nxp/opensource/halimpl" revision="261aeb629795810c94e78371433724c5e430d927" />
-  <project remote="caf" name="platform/vendor/nxp/opensource/hidlimpl" path="vendor/nxp/opensource/hidlimpl" revision="8541096753e210fd8e44102136d1b75daeccfafd" />
-  <project remote="caf" name="platform/vendor/nxp/opensource/packages/apps/Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" revision="c61c6e34ecca13e27e3e0d4441c14e7ea78e5b14" />
-
-  <project path="kernel/xiaomi/davinci" name="davinci-dev/android_kernel_xiaomi_davinci" remote="github" revision="lineage-16.0" />
-  <project path="device/xiaomi/davinci" name="Davinci-Havoc-Development/android_device_xiaomi_davinci" remote="github" revision="9.0" />
-  <project path="device/xiaomi/sm6150-common" name="Davinci-Havoc-Development/android_device_xiaomi_sm6150-common" remote="github" revision="9.0" />
-  <project path="vendor/xiaomi" name="davinci-dev/vendor_xiaomi" remote="github" revision="lineage-16.0" />
-  <project path="hardware/qcom/display-caf/sm8150" name="davinci-dev/android_hardware_qcom_display" remote="github" revision="lineage-16.0-caf-8150" />
-  <project path="vendor/qcom/opensource/interfaces" name="davinci-dev/android_vendor_qcom_opensource_interfaces" remote="github" revision="lineage-16.0" />
-
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-16.0" />
+  <project path="kernel/xiaomi/davinci" name="33bca/android_kernel_xiaomi_sm6150" remote="github" revision="quartz" />
+  <project path="device/xiaomi/davinci" name="mountaser/device_xiaomi_davinci" remote="github" revision="ten" />
+  <project path="vendor/xiaomi/davinci" name="PixelExperience-Devices/vendor_xiaomi_davinci" remote="github" revision="ten" />
+  <project path="vendor/MiuiCamera" name="PixelExperience-Devices/vendor_MiuiCamera" remote="github" revision="ten-anx-raphael" />
 </manifest>
