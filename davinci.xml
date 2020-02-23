@@ -3,6 +3,6 @@
 <manifest>
   <project path="kernel/xiaomi/davinci" name="33bca/android_kernel_xiaomi_sm6150" remote="github" revision="quartz" />
   <project path="device/xiaomi/davinci" name="mountaser/device_xiaomi_davinci" remote="github" revision="ten" />
-  <project path="vendor/xiaomi/davinci" name="PixelExperience-Devices/vendor_xiaomi_davinci" remote="github" revision="ten" />
+  <project path="vendor/xiaomi/davinci" name="raysenlau/vendor_xiaomi_davinci" remote="github" revision="ten-plus" />
   <project path="vendor/MiuiCamera" name="PixelExperience-Devices/vendor_MiuiCamera" remote="github" revision="ten-anx-raphael" />
 </manifest>
