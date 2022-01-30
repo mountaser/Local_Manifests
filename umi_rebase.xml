@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="kernel/xiaomi/sm8250" name="yarpiin/White-Wolf-UMI-UNI" remote="github" revision="LA.UM.9.12.r1-XXXX-SMxx50.QSSI12.0" />
+  <project path="device/xiaomi/umi" name="Umi-Android-Development/device_xiaomi_umi" remote="github" revision="twelve" />
+  <project path="vendor/xiaomi/umi" name="mountaser/vendor_xiaomi_umi" remote="github" revision="12-Des" />
+  <project path="device/xiaomi/sm8250-common" name="Umi-Android-Development/device_xiaomi_sm8250-common" remote="github" revision="twelve" />
+  <project path="vendor/xiaomi/sm8250-common" name="Umi-Android-Development/vendor_xiaomi_sm8250-common" remote="github" revision="twelve" />
+  <project path="hardware/xiaomi/" name="Descendant-Devices/hardware_xiaomi" remote="github" revision="twelve" />
+  <project path="device/xiaomi/extras" name="Descendant-Devices/device_xiaomi_extras" remote="github" revision="twelve" />
+
+ 
+  <remote name="gitlab"
+          fetch="https://gitlab.com/" />
+  
+  <project path="vendor/xiaomi-firmware/umi" name="Ramisky/vendor_xiaomi-firmware_umi" remote="gitlab" revision="twelve" />
+  
+</manifest>
